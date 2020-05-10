@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title> Jacky's Party Form </title>
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    <script src="ajax.js"></script>
+  </head>
+  <body>
+    <h1> Hi, please fill out this quick form to join my party! </h1>
+    <form autocomplete="off">
+     <fieldset id="interface">
+       <label id="prompt">What is your name?</label><br><br>
+       <input id="input" type="text"><br><br>
+       <button style="font-size: 1.2em;"
+       onclick="getInput(getElementById('input').value); return false;">Next</button>
+      <!-- <label for="snack">Which <b>snack</b> would you prefer?</label><br>
+      <input type="text" id="snack" name="snack"><br><br>
+      <label for="lname">Which drink would you prefer?</label><br>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Birthday:</label><br>
+      <input type="date" id="birthday" name="birthday"><br><br> -->
+     </fieldset>
+    </form>
+    <!-- <div id="status"></div> -->
+    <!-- <input
+      id="UserInput"
+      type="text"
+      onkeyup="GetMonth(getElementById('UserInput').value);"
+    />
+    <div id="hint"></div> -->
+  </body>
+</html>

@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+fieldset {
+  padding: 10%;
+}
+
+#prompt {
+  font-size: 1.9em;
+
+}
+
+#input {
+  font-size: 1.2em;
+}
+
+#select {
+  font-size: 1.2em;
+}
+
+p {
+  color: red;
+}
+
+/* #comments {
+  height
+} */
