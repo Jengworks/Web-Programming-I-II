@@ -1,0 +1,174 @@
+/*-------- GENERAL PROPERTIES --------*/
+
+body {
+  background: rgb(0,57,69);
+  background: linear-gradient(180deg, rgba(0,57,69,1) 8%, rgba(0,191,228,1) 50%, rgba(0,0,0,1) 95%);
+  /* Must have these two to properly display the gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0;
+}
+
+/*-------- NAVIGATION BAR PROPERTIES --------*/
+
+#navbar {
+  background-color: black;
+  height: 60px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#home, #about, #examples-dropdown {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  display: inline-block;
+}
+
+/* #examples-dropdown { //indicates hitbox of dropdown div
+  border: 2px solid red;
+} */
+
+#home:hover, #about:hover, #examples-dropdown:hover {
+  border-bottom: 3px solid white;
+}
+
+#examples-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  width: 220px;
+  top: 90px;
+}
+
+#examples-content a {
+  display: block;
+  padding: 15px;
+  font-size: .8em;
+  color: white;
+  text-decoration: none;
+}
+
+#examples-content a:hover {
+  background-color:  #808080;
+}
+
+#examples-dropdown:hover #examples-content {
+  display: block;
+}
+
+/*-------- MAIN CONTENT PROPERTIES --------*/
+
+#main-content {
+  background-color:  #ffffff;
+  border: 10px solid #999999;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 70%;
+}
+
+/*-------- ABOUT ME PROPERTIES --------*/
+
+#about-me {
+  background-color:  #ffffff;
+  border: 10px solid #999999;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 70%;
+}
+
+#me {
+  width: 165px;
+}
+
+#about-me  a {
+  padding-right: 15px;
+  text-decoration: none; /* removes underline by reset to default */
+  color:green;
+}
+
+/*-------- EXAMPLE-ONE PROPERTIES --------*/
+
+#example-one {
+  background-color:  #ffffff;
+  border: 10px solid #999999;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 70%;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+#panel, #flip {
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px black;
+}
+
+#panel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: none;
+}
+
+/*-------- EXAMPLE-TWO PROPERTIES --------*/
+
+#example-two {
+  background-color:  #ffffff;
+  border: 10px solid #999999;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 70%;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+button {
+  font-size: 1.0em;
+}
+
+#red, #green, #blue {
+  margin: auto;
+  width: 50%;
+}
+
+/*-------- EXAMPLE-THREE PROPERTIES --------*/
+
+#example-three {
+  background-color:  #ffffff;
+  border: 10px solid #999999;
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 70%;
+  padding: 30px;
+  font-size: 1.5em;
+}
+
+#mouse-area {
+  border: 10px solid red;
+  margin: auto;
+  width: 50%;
+  padding: 200px;
+}
