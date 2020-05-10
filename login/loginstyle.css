@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+#login {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* align flex items vertically in flex */
+}
+
+#prompt {
+  border: 2px solid red;
+  text-align: center;
+  padding: 100px;
+}
+
+/* Misc */
+p {
+  color: red;
+}
