@@ -20,4 +20,3 @@ Below are some of the screenshots of my work done in this two-part web programmi
   * A function to export the data to csv
 ![alt_text](https://github.com/Jengworks/Web-Programming-I-and-II/blob/master/admin/admin.png)
 
-**
